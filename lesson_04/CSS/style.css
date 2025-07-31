@@ -1,0 +1,19 @@
+body {
+    color: rgb(91, 33, 33);
+    background-color: rgb(212, 244, 244);
+    text-align: justify;
+}
+h1, h2 {
+    color:rgb(26, 114, 107);
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    background-color: rgb(227, 224, 224);
+}
+#punkt2 {
+    background-color: rgb(108, 209, 204); 
+    color: white;
+}
