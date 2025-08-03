@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(225, 241, 248);
+    font-size: 18px;
+    line-height: 1.6;
+    color:rgb(74, 56, 56);
+}
+.label{
+    font-family: monospace;
+    color: #756464;
+    background-color: rgb(193, 177, 177);
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.times{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
