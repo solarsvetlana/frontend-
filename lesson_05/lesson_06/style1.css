@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(232, 250, 244);
+}
+ul{
+    list-style: none;
+}
+.topsection{
+    background-color: bisque;
+    padding:0 24px;
+}
+h1{
+    margin-bottom: 6px;
+    color: darkred;
+    margin-top: -24px;
+}
+.slogan{
+    margin-top: 6px;
+    color: darkred;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.card{
+    background-color:white;
+    padding:12px;
+    margin:12px;
+
+}
+.card a{
+    text-align: center;
+    display: block;
+
+}
+.card a:hover{
+    text-decoration: underline darkred;
+}
+.card h3{
+    text-align: left;
+
+}
+.card p{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.container{
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #cbe4f3;
+    padding:20px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.playwrite-au-nsw-regular{
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.coursive{
+    font-style: italic;
+}

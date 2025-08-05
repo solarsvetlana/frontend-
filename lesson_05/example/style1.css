@@ -1,0 +1,44 @@
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.sticky{
+    position: sticky;
+    top: 30px;
+    z-index: 3;
+}
+header:hover{
+    color: rgb(126, 171, 68);
+}
+main{
+min-height: 100vh;
+}
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    font-family: cursive;
+    box-shadow: 0 16px 24px;
+}
+.client1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(134, 194, 194);
+}
+.client2{
+    background-color: rgb(83, 157, 157);
+    margin-left: 300px;
+}
+.client3{
+    background-color: rgb(82, 129, 129);
+    margin-left: 600px;
+    margin-top: 40px;
+}
+img{
+    width: 70%;
+    height: auto;
+}
