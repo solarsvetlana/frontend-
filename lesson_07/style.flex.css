@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    background-color: rgb(190, 191, 197);
+    width: 700px;
+    margin: auto;
+}
+.box{
+    background-color: aqua;
+    border: 1px solid gray;
+}
