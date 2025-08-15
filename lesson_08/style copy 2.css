@@ -39,7 +39,7 @@ header {
 .menu {
   display: flex;
   gap: 40px;
-  margin-left: 400px;
+  margin-left: 280px;
 }
 
 .slogan {
@@ -48,7 +48,7 @@ header {
 }
 .container {
   display: flex;
-  padding-right: 245px ;
+  padding-right: 155px ;
 }
 
 .col {
