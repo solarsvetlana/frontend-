@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Feedback form</h1>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>How to get in touch with you</legend>
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" placeholder="Your name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="box@mail.com"><br>
+            <label for="tel">Telephone number:</label><br>
+            <input type="tel" id="tel" placeholder="+49 111 777-200-200">
+            <fieldset>  
+                <legend>The terms of the contract</legend>
+                <label for="date">Date</label><br>
+                <input type="date" name="date" id="date"><br>
+                <label for="number">Number:</label><br>
+                <input type="number" id="number" placeholder="K/209/13">
+            </fieldset>
+        </fieldset>
+    <label>Rate our service:</label><br><p></p>
+        <input type="radio" name="text" value="good">Good
+        <input type="radio" name="text" value="satisfactory">Satisfactory
+        <input type="radio" name="text" value="bad">Bad</input><br><p></p>
+    </label>
+    <label>How often do you use our service:</label><br><p></p>
+        <input type="radio" name="text" value="firsttime">First time
+        <input type="radio" name="text" value="sometimes">Sometimes
+        <input type="radio" name="text" value="often">Often</input><br><p></p>
+    </label>  
+    <p>Message:</p>
+    <textarea id="message" placeholder="Write your message ...."></textarea><br>
+    <label>
+        <input type="checkbox">Give consent
+    </label><br>
+    <button type="submit">Send</button>
+    </form>
+
+
+</body>
+</html>
