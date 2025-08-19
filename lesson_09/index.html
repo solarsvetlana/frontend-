@@ -12,28 +12,31 @@
         <fieldset>
             <legend>How to get in touch with you</legend>
             <label for="name">Your name:</label><br>
-            <input type="text" id="name" placeholder="Your name"><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" placeholder="box@mail.com"><br>
+            <input type="email" id="email" name="email" placeholder="box@mail.com"><br>
             <label for="tel">Telephone number:</label><br>
-            <input type="tel" id="tel" placeholder="+49 111 777-200-200">
+            <input type="tel" id="tel" name="tel" placeholder="+49 111 777-200-200">
             <fieldset>  
                 <legend>The terms of the contract</legend>
                 <label for="date">Date</label><br>
                 <input type="date" name="date" id="date"><br>
                 <label for="number">Number:</label><br>
-                <input type="number" id="number" placeholder="K/209/13">
+                <input type="number" id="number" name="number" placeholder="K/209/13">
             </fieldset>
         </fieldset>
     <label>Rate our service:</label><br><p></p>
-        <input type="radio" name="text" value="good">Good
-        <input type="radio" name="text" value="satisfactory">Satisfactory
-        <input type="radio" name="text" value="bad">Bad</input><br><p></p>
+        <input type="radio" name="text" id="good" value="good">
+        <label for="good">Good</label>
+        <input type="radio" name="text" id="satisfactory" value="satisfactory">
+         <label for="satisfactory">Satisfactory</label>
+        <input type="radio" name="text" id="bad" value="bad">Bad</input><br>
+         <label for="bad">Bad</label>
     </label>
     <label>How often do you use our service:</label><br><p></p>
-        <input type="radio" name="text" value="firsttime">First time
-        <input type="radio" name="text" value="sometimes">Sometimes
-        <input type="radio" name="text" value="often">Often</input><br><p></p>
+        <input type="radio" name="rating" value="firsttime">First time
+        <input type="radio" name="rating" value="sometimes">Sometimes
+        <input type="radio" name="rating" value="often">Often</input><br><p></p>
     </label>  
     <p>Message:</p>
     <textarea id="message" placeholder="Write your message ...."></textarea><br>
