@@ -1,34 +1,46 @@
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
 }
 
 .menu {
-  background-color: #4b4f67;
+  background-color: #585d78;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  align-items: center;
+  padding: 20px;
 }
 
 .menu a {
   color: white;
+  text-decoration: none;
   font-weight: bold;
   padding: 10px 20px;
-  text-decoration: none;
+  border-bottom: 2px solid transparent;
 }
-.menu a {
-  font-size: 24px;
+
+.menu a:hover {
+  border-bottom: 2px solid white;
 }
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
+  .menu a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
   .menu a {
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .menu a {
     font-size: 16px;
   }
 }
+
 @media (max-width: 576px) {
   .menu {
     flex-direction: column;
@@ -38,6 +50,7 @@ body {
   .menu a {
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid white;
+    width: 100%;
   }
 }
