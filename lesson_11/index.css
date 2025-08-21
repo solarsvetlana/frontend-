@@ -7,7 +7,7 @@ header {
   display: flex;
   margin-bottom: 50px;
   padding: 10px 3px 10 px 10px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: rgb(176, 228, 245);
   border-radius: 8px;
