@@ -5,6 +5,8 @@ body {
 
 header {
   display: flex;
+  margin: 30px;
+  margin-bottom: 50px;
   justify-content: flex-start;
   align-items: center;
   background-color: white;
@@ -46,6 +48,7 @@ h2{
     body{
         background-color: rgb(245, 236, 198);
         font-size: 16px;
+        color: red;
     }
 }
 
@@ -53,6 +56,6 @@ h2{
     body{
         background-color: rgb(193, 252, 186);
         font-size: 14px;
-        color:  rgb(245, 120, 63);
+        color:  rgb(43, 197, 240);
     }
 }
