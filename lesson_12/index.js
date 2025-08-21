@@ -1,5 +1,5 @@
-let num1 = 3;
-let num2 = -2;
+let num1 = 5;
+let num2 = 7;
 
 if (typeof num1 === 'number' && typeof num2 === 'number') {
     let result = 1;
