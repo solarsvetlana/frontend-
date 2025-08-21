@@ -9,7 +9,7 @@ header {
   padding: 10px 3px 10 px 10px;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(250, 253, 254);
+  background-color: rgb(176, 228, 245);
   border-radius: 8px;
   box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.5);
 }
@@ -49,10 +49,7 @@ h2{
         font-size: 16px;
         color: red;
     }
-    .header{
-      background-color: rgb(245, 236, 198);
-    }
-}
+  }
 
 @media (max-width: 600px) {
     body{
@@ -60,7 +57,4 @@ h2{
         font-size: 14px;
         color:  rgb(43, 197, 240);
     }
-    .header{
-      background-color :rgb(193, 252, 186) ;
-    }
-}
+  }
