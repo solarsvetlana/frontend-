@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(215, 231, 250);
+}
+#root{
+  width: 800px;
+  height: 600px;
+  position: relative;
+  font-size: 50px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+#block{
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left:0;
+  background-color: rgb(215, 231, 250);
+  border-top: 3px red;
+}
