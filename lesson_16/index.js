@@ -22,3 +22,10 @@
       box2.style.top = top + 'px';
       box2.style.left = left + 'px';
     }
+
+    document.addEventListener("keydown", function(event){
+        if (event.key === "ArrowUp") move ("up");
+        if (event.key === "ArrowDown") move ("down");
+        if (event.key === "ArrowLeft") move ("left");
+        if (event.key === "ArrowRight") move ("right");
+    });
