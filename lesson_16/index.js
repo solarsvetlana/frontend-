@@ -9,13 +9,13 @@
       let top = parseInt(box2.style.top) || 0;
       let left = parseInt(box2.style.left) || 0;
 
-      if (direction === 'up' && top - step >= 0) {
+      if (direction === 'up' && top - step >= 0) {box1.clientHeight
         top -= step;
-      } else if (direction === 'down' && top + step + box2.offsetHeight <= box1.clientHeight) {
+      } else if (direction === 'down' && top + step + box2.offsetHeight <= ) {box1.clientHeight
         top += step;
-      } else if (direction === 'left' && left - step >= 0) {
+      } else if (direction === 'left' && left - step >= 0) {box1.clientHeight
         left -= step;
-      } else if (direction === 'right' && left + step + box2.offsetWidth <= box1.clientWidth) {
+      } else if (direction === 'right' && left + step + box2.offsetWidth <= h) {
         left += step;
       }
 
