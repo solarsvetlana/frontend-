@@ -1,0 +1,9 @@
+body {
+      font-family: Arial, sans-serif;
+}
+.user {
+    margin: 10px 0;
+}
+.user span {
+    margin-right: 10px;
+}

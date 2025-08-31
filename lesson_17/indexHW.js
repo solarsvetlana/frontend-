@@ -60,9 +60,13 @@ function printAllProducts(products) {
         console.log("");
     });
 }
-delete product1.info;
-delete product2.info;
-delete product3.info;
-delete product4.info;
-delete product5.info;
+
 printAllProducts(products);
+
+const productJSON = JSON.stringify(product1);
+console.log(productJSON)
+
+let obj = JSON.parse(productJSON);
+console.log(obj);
+
+
